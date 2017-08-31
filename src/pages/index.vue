@@ -1,7 +1,9 @@
 <template>
-	<div>
-		<p>INDEX</p>
-		<router-link tag="a" to="/vuejs">VUEJS</router-link>
+	<div class="index">
+		<img src="../assets/logo.png">
+		<div class="input">
+			<router-link tag="a" to="/vuejs">VUEJS</router-link>
+		</div>
 	</div>
 </template>
 
@@ -9,6 +11,6 @@
 
 </script>
 
-<style>
-
+<style lang="stylus" scoped>
+	@import '../assets/css/index'
 </style>
